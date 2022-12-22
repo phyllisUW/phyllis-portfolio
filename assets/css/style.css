@@ -453,8 +453,8 @@ section {
 }
 
 .about .img-fluid {
-  max-width: 90%;
-  height: 90%;
+  max-width: 100%;
+  height: 100%;
 
 }
 

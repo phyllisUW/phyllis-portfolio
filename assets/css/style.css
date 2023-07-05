@@ -652,9 +652,14 @@ section {
   fill: #9CAF88;
 }
 
-
 .portfolio .icon-box.iconbox-blue {
   background: linear-gradient(rgba(252, 247, 247, 0.763), rgba(255, 255, 255, 0.856)), url("../img/project1.png");
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio .icon-box.iconbox-teal {
+  background: linear-gradient(rgba(252, 247, 247, 0.763), rgba(255, 255, 255, 0.856)), url("../img/project5.png");
   background-size: cover;
   position: relative;
 }

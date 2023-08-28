@@ -712,6 +712,11 @@ section {
 }
 
 
+.portfolio p.github-link:hover {
+  color: gray;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer

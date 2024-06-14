@@ -701,6 +701,18 @@ section {
   position: relative;
 }
 
+
+.portfolio .icon-box.iconbox-green {
+  background: linear-gradient(rgba(252, 247, 247, 0.54), rgba(255, 255, 255, 0.54)), url("../img/project8.png");
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio .icon-box.iconbox-purple {
+  background: linear-gradient(rgba(252, 247, 247, 0.4), rgba(255, 255, 255, 0.4)), url("../img/project7.png");
+  background-size: cover;
+  position: relative;
+}
 .portfolio p.title {
   font-size: 19px;
   text-align: center;

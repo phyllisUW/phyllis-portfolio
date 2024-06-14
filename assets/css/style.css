@@ -310,6 +310,7 @@ h2 {
 /*--------------------------------------------------------------
 # General Section
 --------------------------------------------------------------*/
+
 #general {
   width: 100%;
   height: 100vh;
@@ -350,6 +351,8 @@ h2 {
   font-family: 'Reenie Beanie', cursive;
   /* font-family: "Poppins", sans-serif; */
 }
+
+
 
 #general p span {
   color: #9CAF88;

@@ -28,7 +28,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #6D7D7B;
+  color: #77657f;
 }
 
 a {
@@ -69,7 +69,7 @@ h2 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #9CAF88;
+  background: #8282c2;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -111,7 +111,7 @@ h2 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #A4BDBA;
+  border: 6px solid #857198;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -205,7 +205,7 @@ h2 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #A4BDBA;
+  color: #8282c2;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -250,7 +250,7 @@ h2 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: white;
-  background: #9CAF88;
+  background: #8282c2;
 }
 
 .nav-menu a:hover span,
@@ -304,7 +304,7 @@ h2 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #A4BDBA;
+  background-color: #9e7ece;
 }
 
 /*--------------------------------------------------------------
@@ -340,12 +340,12 @@ h2 {
   font-size: 94px;
   font-weight: 700;
   line-height: 56px;
-  color: #6D7D7B;
+  color: #666469;
   ;
 }
 
 #general p {
-  color: #6D7D7B;
+  color: #464348;
   margin: 15px 0 0 0;
   font-size: 55px;
   font-family: 'Reenie Beanie', cursive;
@@ -355,7 +355,7 @@ h2 {
 
 
 #general p span {
-  color: #9CAF88;
+  color: #8282c2;
   letter-spacing: 1px;
 }
 
@@ -366,14 +366,14 @@ h2 {
 #general .social-links a {
   font-size: 40px;
   display: inline-block;
-  color: #6D7D7B;
+  color: #8282c2;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #general .social-links a:hover {
-  color: #9CAF88;
+  color: #aa90bb;
 }
 
 @media screen and (max-width: 992px) {
@@ -413,7 +413,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #9CAF88;
+  color: #513662;
 }
 
 .section-title h2::before {
@@ -433,13 +433,13 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #9CAF88;
+  background: #aa90bb;
   bottom: 0;
   left: calc(50% - 20px);
 }
 
 .section-title p {
-  color: #6D7D7B;
+  color: #464348;
   margin-bottom: 0;
 }
 
@@ -449,7 +449,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #A4BDBA;
+  color: #4c4359;
 }
 
 
@@ -474,7 +474,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #A4BDBA;
+  color: #9e7ece;
   line-height: 0;
 }
 
@@ -497,7 +497,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# ills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -529,7 +529,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #A4BDBA;
+  background-color: #8282c2;
 }
 
 /*--------------------------------------------------------------
@@ -540,13 +540,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #9CAF88;
+  color: #513662;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #A4BDBA;
+  border-left: 2px solid rgb(79, 64, 103);
   position: relative;
 }
 
@@ -556,7 +556,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #A4BDBA;
+  color: #8282c2;
   margin-bottom: 10px;
 }
 
@@ -590,7 +590,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #A4BDBA;
+  border: 2px solid #9e7ece;
 }
 
 
@@ -738,7 +738,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #f7f8f9;
-  color: #6D7D7B;
+  color: #464348;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -767,7 +767,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #6D7D7B;
+  background: #8282c2;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -780,7 +780,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #9CAF88;
+  background: #aa90bb;
   color: #fff;
   text-decoration: none;
 }

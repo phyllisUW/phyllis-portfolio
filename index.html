@@ -146,7 +146,7 @@
               <p><em>Carnegie Mellon University, Information Networking Institute</em></p>
               <p>Relevant Coursework: Systems and Toolchains AI,Information Security, Machine Learning with Adversaries,
                 Deep Learning, Rapid Prototyping, Cloud Security, Telcommunications and Networks, AI Business Modeling,
-                AI Applications in Security</p>
+                AI Applications in Security, Generative AI, Data Engineering, Trustworthy AI</p>
             </div>
 
             <div class="resume-item">
@@ -177,6 +177,10 @@
             </div>
 
             <h3 class="resume-title">Award and Certifications</h3>
+            <div class="resume-item">
+              <p>Grace Hopper Celebration Scholarship Award - GHC Attendance scholarship selection from Information Networking Institute, Carnegie Mellon Universty</p>
+              <h5>2025</h5>
+            </div>
             <div class="resume-item">
               <p>Participant: SafeWays AI Scam Detector - TartanHacks Hackathon</p>
               <h5>2025</h5>
@@ -231,6 +235,25 @@
 
             <h3 class="resume-title">My Favorite Projects & Descriptions</h3>
             <div class="resume-item">
+              <h4>
+                U-Net Image Generation - Generative AI
+              </h4>
+              <li> Engineered DDPM (Denoising Diffusion Probabilistic Model) with cosine noise schedule; used forward
+                reparameterization for
+                noise injection, and reverse sampling with U-net noise predictor and posterior mean/variance to
+                synthesize unseen cat images</li>
+              <li>Built pipeline by iteratively denoising from pure Gaussian noise to sample new images from learned
+                distribution </li>
+              <li>
+                Generated checkpoint batches of 15,360 novel samples across runs, at 100-step intervals across 10,000
+                training steps
+              </li>
+              <li>
+                Instrumented reproducible tracking in Weights & Biases, logging L1 loss convergence, sample grids, and
+                FID reductions
+              </li>
+              <br>
+
               <h4>
                 MQTT Traffic Attack Classification - Systems and Toolchains for AI
               </h4>
@@ -297,22 +320,36 @@
             <h3 class="resume-title">Experience</h3>
 
 
-            <!-- <div class="resume-item">
-              <h4>AI/ML Engineering Intern of<em>RADA Technologies Leonardo DRS</em>
+            <div class="resume-item">
+              <h4>Artificial Intelligence & Machine Learning Engineering Intern for <em>RADA Technologies Leonardo DRS</em>
               </h4>
               <h5>May 2025 - August 2026</h5>
               <p><em>AI/Systems Team</em></p>
               <p>
-                In Progress...
+                (Details Proprietary) Radar perception & classification using ML:
+                Developed end-to-end classification pipeline in Conda, using Redis server interface to access big-data
+                streams for data
+                preprocessing, feature engineering with LSTM, and optimizing live classification capability with SVM and
+                LSTM, conducted live system testing of radar systems to gather detection data; Documented observations
+                to iteratively refine classifier robustness and reliability in operational environments
+
               </p>
-            </div> -->
+            </div>
+
+
+
             <div class="resume-item">
               <h4>Graduate Teaching Assistant for <em>14-757 Introduction to ML with Adversaries, 14-795 AI Applications
                   in Information Security</em></h4>
               <h5>Aug 2025 - Dec 2025</h5>
               <p><em>Information Networking Institute, Carnegie Mellon University</em></p>
               <p>
-                Incoming Position...
+                Grading Assignments focused on adversarial machine learning practices, such as training and attacking
+                traditional machine learning models, feature selection methods, and simple neural network practices for
+                130+ students,
+                ,grading and reviewing literature reviews relevant to current AI attack implementations, supervising
+                projects focused on AI Applications in information security for 50+ students
+                ,hold regular office hour sessions to support graduate level students and support course staff
               </p>
             </div>
 

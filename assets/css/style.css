@@ -655,11 +655,20 @@ section {
 }
 
 
-.portfolio .icon-box.icon-box.iconbox-orange {
+.portfolio .icon-box.icon-box.iconbox-cyan {
   background: linear-gradient(rgba(252, 247, 247, 0.6), rgba(255, 255, 255, 0.856)), url("../img/project10.png");
   background-size: cover;
   position: relative;
 }
+
+
+
+.portfolio .icon-box.icon-box.iconbox-aqua {
+  background: linear-gradient(rgba(252, 247, 247, 0.6), rgba(255, 255, 255, 0.856)), url("../img/project11.png");
+  background-size: cover;
+  position: relative;
+}
+
 
 
 .portfolio .icon-box.iconbox-yellow {
